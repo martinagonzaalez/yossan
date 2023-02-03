@@ -15,10 +15,28 @@ SORROW
         min-width: 70%;
 }
 
+.hateYou{
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}
+.ghostface{
+    width: 30%;
+    position: relative;
+  left: 20px;
+}
+
+
 @font-face {
     font-family: 'Windows 95';
     src: url('../fonts/w-95-sans-serif.woff2') format('woff2'),
-        url('../fonts/w-95-sans-serif.woff') format('woff');
+        url('../fonts/w-95-sans-serif.woff') format('woff'),
+        url('../fonts/bloody.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -3770,7 +3788,7 @@ button.section-black:focus {
 }
 
  .card-body {
-     padding: 10px 7px;
+     padding: 0px 7px;
      border-top: 2px solid #BDBDBD;
      border-left: 3px solid #BDBDBD;
      border-right: 3px solid #BDBDBD;

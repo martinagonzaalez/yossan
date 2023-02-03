@@ -14,6 +14,19 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+const btnAbrirModal =
+document.querySelector("#btn-abrir-modal");
+const btnCerrarModal =
+document.querySelector("#btn-cerrar-modal");
+const modal =
+document.querySelector("#modal");
+btnAbrirModal.addEventListener("click",()=>{
+    Modal.showModal();
+})
+
+btnAbrirModal.addEventListener("click",()=>{
+    modal.showModal();
+})
 
 "use strict";
 $(document).ready(function () {
