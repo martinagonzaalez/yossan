@@ -3,7 +3,7 @@ SORROW
 **/
 
 .background{
-        background-image: url(../background.gif);
+        background-image: url(./background.gif);
         background-size:11%;
         height: 100%;
         padding:0;
